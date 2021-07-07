@@ -995,7 +995,7 @@ dnl directory behaves reasonably.
 
 AC_OUTPUT(Makefile doc/Makefile ${GDBINIT}:gdbinit.in po/Makefile.in:po/Make-in,
 [rm -f targ-cpu.c targ-cpu.h obj-format.h obj-format.c targ-env.h atof-targ.c itbl-cpu.h
- echo '#include "tc-'"${target_cpu_type}"'.h"' > targ-cpu.h
+ echo '//#include "tc-'"${target_cpu_type}"'.h"' > targ-cpu.h
  echo '#include "obj-'"${obj_format}"'.h"' > obj-format.h
  echo '#include "te-'"${te_file}"'.h"' > targ-env.h
  echo '#include "itbl-'"${target_cpu_type}"'.h"' > itbl-cpu.h
