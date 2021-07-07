@@ -17,6 +17,6 @@ make gasp-new
 
 The result will be placed in ``gas/gasp-new``. Finally, take a look at the [man page](https://nixdoc.net/man-pages/Linux/man1/gasp.1.html) or the [reference manual](https://github.com/matrach/gasp/raw/master/gasp.pdf) and party like it's 1999.
 
-[![Party like it's 1999](http://img.youtube.com/vi/rblt2EtFfC4/0.jpg)](http://www.youtube.com/watch?v=rblt2EtFfC4)
+[![Get it, get it, like 1999](http://img.youtube.com/vi/NbqtAuT4zbk/0.jpg)](http://www.youtube.com/watch?v=NbqtAuT4zbk)
 
 Footnote: gasp wasn't compiling on the source commit by default, so I hacked the makefiles a bit, therefore don't expect ``as`` to work. Also, don't expect it to parse anything remotely recent.
